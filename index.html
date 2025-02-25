@@ -23,11 +23,9 @@
         </label>
 
         <label>Converter <b>para :</b>
-            <select>
-                <option>US$ Dólar Americano</option>
-                <option>€ Euro</option>
-                <option>£ Libra</option>
-                <option>₿ Bitcoin</option>
+            <select class="moeda-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
             </select>
         </label>
 
@@ -39,6 +37,7 @@
     <button class="convert-button">CONVERTER</button>
 
         <section>
+
             <div class="moedas-box">
                 <img src="./assets/Bra.png" alt="logo real">
                 <p class="moeda">Real</p>
@@ -46,14 +45,14 @@
 
             </div>
 
-<img class="seta" src="./assets/Vector.png" alt="Seta">
-<br>
+                    <img class="seta" src="./assets/Vector.png" alt="Seta">
+                    <br>
             <div class="moedas-box">
-                <img src="./assets/EUA.png" alt="logo Eua">
-                <p class="moeda">Dólar Americano</p>
+                <img class="img-EUA" src="./assets/EUA.png" alt="logo Eua">
+                <p class="moeda" id="nome-da-moeda">Dólar Americano</p>
                 <p class="valor-da-moeda">$ 0,00</p>
-
             </div>
+
         </section>
     </main>
 </body>
