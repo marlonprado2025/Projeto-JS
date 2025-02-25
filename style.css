@@ -1,0 +1,105 @@
+/*font-family: "Open Sans",san serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #8A51FC;
+
+}
+
+.gif {
+    display: block;
+    Width: 100px;
+    margin: 20px auto;
+}
+
+main {
+    display: block;
+    margin: 0 auto 50px;
+    padding: 40px 24px;
+
+
+    width: 375px;
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 18px
+}
+
+select, input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background: #1ac252;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+    Width: 100%;
+    border: none;
+    height: 48px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+section {
+    border: 1px solid #1ac252;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seta {
+    margin-top: 20px;
+}
+
+.moedas-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.moeda{
+    font-weight: 400;
+font-size:14PX;
+color: #777777;
+}
+.valor-da-moeda, .valor-da-moeda-convertida{
+    font-weight: 700;
+    font-size:18PX;
+    color: #474747;
+}
